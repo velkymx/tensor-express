@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My TensorFlow.js App</title>
+    <!-- Load TensorFlow.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.11.0/dist/tf.min.js"></script>
+    <!-- Load the model -->
+    <script src="./model/model.json"></script>
+    <!-- Load the app.js script -->
+    <script src="./app.js"></script>
+  </head>
+  <body>
+    <h1>My TensorFlow.js App</h1>
+    <p>Enter an image URL and click "Predict" to see the predicted class:</p>
+    <input type="text" id="image-url">
+    <button onclick="predict()">Predict</button>
+    <p id="prediction"></p>
+  </body>
+</html>
