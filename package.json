@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@teachablemachine/image": "^0.8.5",
     "@tensorflow/tfjs": "^4.2.0",
     "ejs": "^3.1.8",
     "express": "^4.18.2"
