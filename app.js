@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+// dotenv
+require('dotenv').config();
 
 // Set up static file serving
 app.use(express.static('public'));

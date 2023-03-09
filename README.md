@@ -7,6 +7,8 @@ To run this TensorFlow.js app with a Teachable Machine model in an Express.js pr
 1. Clone the project's repository to your local machine.
 1. Navigate to the project directory in your terminal or command prompt.
 1. Run `npm install` to install the project dependencies.
+1. Copy `.env.sample` to `.env` and to configure the port and model id
+
 1. Run `npm start` to start the Express server.
 1. Open a web browser and navigate to `http://localhost:3000` to view the app.
 
